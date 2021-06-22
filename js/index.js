@@ -192,7 +192,7 @@
                             curStrPos++;
                         }
                         curStrPos++;
-                        tag += endTag;
+                        //tag += endTag;
                     }
                 }
 
@@ -287,7 +287,7 @@
                             curStrPos--;
                         }
                         curStrPos--;
-                        tag += '<';
+                        //tag += '<';
                     }
                 }
 
