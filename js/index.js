@@ -188,7 +188,7 @@
                             endTag = ';'
                         }
                         while (curString.substr(curStrPos).charAt(0) !== endTag) {
-                            tag += curString.substr(curStrPos).charAt(0);
+                            //tag += curString.substr(curStrPos).charAt(0);
                             curStrPos++;
                         }
                         curStrPos++;
@@ -283,7 +283,7 @@
                     if (curString.substr(curStrPos).charAt(0) === '>') {
                         var tag = '';
                         while (curString.substr(curStrPos).charAt(0) !== '<') {
-                            tag -= curString.substr(curStrPos).charAt(0);
+                            //tag -= curString.substr(curStrPos).charAt(0);
                             curStrPos--;
                         }
                         curStrPos--;
